@@ -19,13 +19,13 @@
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
-                        <h3> <img src="assets/img/icon/address.svg" alt=""> Location</h3>
+                        <h3> <img src="assets/img/icon/address.svg" alt="">{{$t('main.footer_1')}}</h3>
                         <p>Almaty city, Abylaikhan 148/1</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
-                        <h3> <img src="assets/img/icon/support.svg" alt=""> Location</h3>
+                        <h3> <img src="assets/img/icon/support.svg" alt=""> {{$t('nav.contacts')}}</h3>
                         <p>+7 777 962 99 96 <br>
                             support@ubios.kz</p>
                     </div>
@@ -46,10 +46,10 @@
                                 Services
                             </h3>
                             <ul>
-                                <li><a href="#">Авиаперевозки</a></li>
-                                <li><a href="#">Морские Перевозки</a></li>
-                                <li><a href="#">Наземный Транспорт</a></li>
-                                <li><a href="#">ЖД перевозки</a></li>
+                                <li><a href="#">{{$t('main.block_3.avia.title')}}</a></li>
+                                <li><a href="#">{{$t('main.block_3.sea.title')}}</a></li>
+                                <li><a href="#">{{$t('main.block_3.earth.title')}}</a></li>
+                                <li><a href="#">{{$t('main.block_3.train.title')}}</a></li>
                             </ul>
 
                         </div>
@@ -60,25 +60,25 @@
                                 Компания
                             </h3>
                             <ul>
-                                <li><a href="#">О Компании</a></li>
-                                <li><a href="#">Наши Контакты</a></li>
-                                <li><a href="#">Сервисы</a></li>
+                                <li><a href="#">{{$t('nav.about')}}</a></li>
+                                <li><a href="#">{{$t('nav.contacts')}}</a></li>
+                                <li><a href="#">{{$t('nav.services')}}</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
-                            
+
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Подписаться
+                                {{$t('main.footer_2.subscribe')}}
                             </h3>
                             <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Введите вашу почту: ">
-                                <button type="submit" class="btn btn-outline-primary">Подписаться!</button>
+                                <input type="text" :placeholder="$t('main.footer_2.email')">
+                                <button type="submit" class="btn btn-outline-primary">{{$t('main.footer_2.subscribe')}}!</button>
                             </form>
                             <p class="newsletter_text"></p>
                         </div>

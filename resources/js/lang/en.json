@@ -1,0 +1,60 @@
+{
+    "nav.main": "Home",
+    "nav.service" : "Services",
+    "nav.about" : "About Us",
+    "nav.for_clients" : "For Customers",
+    "nav.contacts" : "Contacts",
+    "nav.submit_application" : "Get estimate",
+    "main.block_1.slider_3.title" : "АвиаперевозкиAir transportation",
+    "main.block_1.slider_3.desc" : "The main advantage of air transportation is the maximum efficiency of delivery of products from one point to another in a few hours.",
+    "main.block_1.slider_1.title" : "Ocean Freight",
+    "main.block_1.slider_1.desc" : "Ocean cargo transportation allows you to purchase products from almost anywhere in the world. At the same time, during the shipment of products, the weight and size of a particular product is not so important.",
+    "main.block_1.slider_2.title" : "Land transport",
+    "main.block_1.slider_2.desc" : "Accessibility to access roads of warehouses and manufacturing enterprises for loading and unloading goods; versatility. The main direction of our work is considered to be rail transportation from other countries to the Republic of Kazakhstan.",
+    "main.block_2.logistic.title" : "Transport logistics",
+    "main.block_2.logistic.desc" : "Transport logistics involves the organization of moving objects to a given point with the development of an optimal route.The following main tasks can be distinguished:",
+    "main.block_2.monitor.title" : "MONITORING",
+    "main.block_2.monitor.desc" : "We monitor the market in order to identify reliable suppliers. We have the best practices and offer a search for a supplier according to the specified parameters.",
+    "main.block_2.transport.title" : "CARGO TRANSPORTATION",
+    "main.block_2.transport.desc" : "Trucks from Almaty depart daily to all international destinations. The most popular routes are the CIS countries (Russia, Ukraine, Belarus).",
+    "main.block_3.title" : " Our services",
+    "main.block_3.avia.title" : " Air transportation",
+    "main.block_3.avia.desc" : " The main advantage of air transportation is the maximum efficiency of delivery of products from one point to another in a few hours.",
+    "main.block_3.sea.title" : " Ocean Freight",
+    "main.block_3.sea.desc" : " Ocean cargo transportation allows you to purchase products from almost anywhere in the world. At the same time, during the shipment of products, the weight and size of a particular product is not so important.",
+    "main.block_3.train.title" : " Railway transport",
+    "main.block_3.train.desc" : " This is a vehicle, on vehicles that move on rails (rails or railways). This is one of the most important, frequently used and very economical methods of transportation and transportation of goods both over long and short distances",
+    "main.block_3.earth.title" : "Land transport",
+    "main.block_3.earth.desc" : "Land transport is the transportation or movement of people, animals or goods from one place to another place on land.",
+
+
+    "main.block_4.title" : "100% security and reliability",
+    "main.block_4.desc" : "At Ubios service, we want to make sure that you feel confident when ordering from us. We collect your personal information in order to place your order and quickly deliver the necessary goods to you in a 100% secure environment. We do not store your credit card information and will never share, sell or distribute your personal information such as your name, address or any other information that you provide to us. We do not sell or transfer your personal information.",
+
+    "main.block_5.title" : "Why do customers trust us?",
+    "main.block_5.desc_1" : "Service level. We focus on European quality standards;",
+    "main.block_5.desc_2" : "Providing a wide range of services. By contacting us, you can use ",
+    "main.block_5.desc_3" : "Freight forwarding, order rail, container transportation, rent rolling stock.",
+    "main.block_5.desc_4" : "Protection of the client's interests. Customer needs are a priority for our company;",
+    "main.block_5.desc_5" : "Transparent and trust-based cooperation.",
+    "main.block_5.desc_6" : "Flexible pricing policy;",
+    "main.block_5.desc_7" : "Individual approach to each client.",
+
+    "main.block_6.counter1" : "years, on the market of Kazakhstan",
+    "main.block_6.counter2" : "Employees across Kazakhstan",
+    "main.block_6.counter3" : "Satisfied customers",
+    "main.block_6.counter4" : "Successful transactions",
+
+    "main.block_7.form_title" : "Get a free evaluation",
+    "main.block_7.form_desc" : "Leave a request for an assessment of cargo transportation or contact us. Fill in all the fields!",
+    "main.block_7.form_button" : "get an estimate",
+
+    "main.footer_1" : "Location",
+
+    "main.footer_2.subscribe" : "Subscribe",
+    "main.footer_2.email" : "Enter your email",
+    "main.footer_2.company" : "Company"
+
+
+
+}

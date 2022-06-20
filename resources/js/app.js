@@ -5,7 +5,8 @@
  */
 
 import Vue from "vue";
-
+import VueI18n from 'vue-i18n'
+import {i18n} from "./i18n";
 require('./bootstrap');
 
 window.Vue = require('vue').default;
@@ -32,6 +33,7 @@ Vue.component('service-details-component', require('./components/ServiceDetailCo
 Vue.component('contacts-component', require('./components/ContanctsComponent.vue').default);
 Vue.component('feedback-transport-component', require('./components/FeedBackTransportComponent.vue').default);
 Vue.component('form-contact-component', require('./components/FormContacts.vue').default);
+Vue.component('floating-button-component', require('./components/FloatingButton.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -39,6 +41,8 @@ Vue.component('form-contact-component', require('./components/FormContacts.vue')
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+Vue.use(VueI18n)
 const app = new Vue({
+    i18n,
     el: '#ubios',
 });

@@ -17,7 +17,7 @@
                                     <ul>
                                         <li><a href="#"> <i class="fa fa-envelope"></i> ubios-service@gmail.com</a></li>
                                         <li><a href="#"> <i class="fa fa-phone"></i> +7 777 962 99 96</a></li>
-                                        <li><a href="#"> <i class="fa fa-phone"></i> +7 700 364 76 17</a></li>
+                                        <li><a href="#"> <i class="fa fa-phone"></i> +7 700 364 76 117</a></li>
                                     </ul>
                                 </div>
 
@@ -40,13 +40,21 @@
                             <div class="col-xl-9 col-lg-9">
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
-                                        <li><a href="#"> <i class="fa fa-home"></i> </a></li>
-                                        <ul id="navigation">
-                                            <li><a class="navbar-brand" href="/"><h4>Главная</h4></a></li>
-                                            <li><a class="navbar-brand" href="/services">Сервисы</a></li>
-                                            <li><a class="navbar-brand" href="/about">О компании</a></li>
-                                            <li><a class="navbar-brand" href="/service_details">Для Клиентов</a></li>
-                                            <li><a class="navbar-brand" href="/contact">Контакты</a></li>
+                                        <ul id="navigation" class="d-flex align-items-center">
+                                            <li><a class="navbar-brand" href="/">{{$t('nav.main')}}</a></li>
+                                            <li><a class="navbar-brand" href="/services">{{$t('nav.service')}}</a></li>
+                                            <li><a class="navbar-brand" href="/about">{{$t('nav.about')}}</a></li>
+                                            <li><a class="navbar-brand" href="/service_details">{{$t('nav.for_clients')}}</a></li>
+                                            <li><a class="navbar-brand" href="/contact">{{$t('nav.contacts')}}</a></li>
+                                            <li>
+                                                <select class="navbar-brand form-control bg-transparent"
+                                                        @change="changeLanguage($event)"
+                                                        v-model="lang"
+                                                        style="width: 90px; border:none; font-size: 15px; padding: 0" >
+                                                    <option value="en">English</option>
+                                                    <option value="ru">Русский</option>
+                                                </select>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -54,7 +62,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="short_contact_list">
                                     <div class="book_btn d-none d-lg-block">
-                                        <button type="button" class="btn btn-outline-primary">Оставить Заявку</button>
+                                        <button type="button" @click="scroll" class="btn btn-outline-primary">{{$t('nav.submit_application')}}</button>
                                     </div>
                                 </div>
                             </div>
@@ -67,14 +75,33 @@
                 </div>
             </div>
         </div>
+
     </div>
 
 </template>
 
 <script>
 export default {
-    name: "HeaderComponent"
+    name: "HeaderComponent",
+    data: function (){
+      const lang = localStorage.getItem("lang") || "en";
+      return {
+          lang: lang
+      }
+    },
+    methods:{
+        scroll() {
+            const element = document.getElementById('estimate');
+            element.scrollIntoView({ behavior: 'smooth' });
+        },
+        changeLanguage(event){
+            localStorage.setItem("lang", event.target.value)
+            window.location.reload();
+        }
+
+    }
 }
+
 </script>
 
 <style scoped>

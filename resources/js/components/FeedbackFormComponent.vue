@@ -1,13 +1,12 @@
 <template>
     <!-- Estimate_area start  -->
-    <div class="Estimate_area overlay">
+    <div class="Estimate_area overlay" id="estimate">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5">
                     <div class="Estimate_info">
-                        <h3>Get free Estimate</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing.</p>
+                        <h3>{{$t('main.block_7.form_title')}}</h3>
+                        <p>{{$t('main.block_7.form_desc')}}</p>
                         <a href="#" class="boxed-btn3">+7 777 969 99 96</a>
                     </div>
                 </div>
@@ -53,9 +52,9 @@
                                 <div class="col-xl-6">
                                     <div class="input_field">
                                         <select class="nice-select" v-model="feedback.contains" @change="enableButton">
-                                            <option value="Жд транспорт">Жд транспорт</option>
-                                            <option value="Авиа транспорт">Авиа транспорт</option>
-                                            <option value="Водный транспорт">Водный транспорт</option>
+                                            <option value="Жд транспорт">{{$t('main.block_3.train.title')}}</option>
+                                            <option value="Авиа транспорт">{{$t('main.block_3.avia.title')}}</option>
+                                            <option value="Водный транспорт">{{$t('main.block_3.sea.title')}}</option>
                                         </select>
                                     </div>
                                 </div>
@@ -75,7 +74,7 @@
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="input_field">
-                                        <button class="boxed-btn3-line" type="button"  @click="createFeedback" :disabled="errors.length > 0" >Send Estimate</button>
+                                        <button class="boxed-btn3-line" type="button"  @click="createFeedback" :disabled="errors.length > 0" >{{$t('main.block_7.form_button')}}</button>
                                     </div>
                                 </div>
                             </div>

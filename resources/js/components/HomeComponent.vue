@@ -13,22 +13,22 @@
                 <div class="carousel-item active">
                     <img class="d-block w-100" height="450" src="assets/img/banner/bradcam2.png" >
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="slider-title">Морские Перевозки</h2>
-                        <p class="slider-text">Морские грузоперевозки позволяют приобретать продукцию практически из любой точки земного шара. При этом, во время отгрузки продукции не так важен вес и размер того или иного товара.</p>
+                        <h2 class="slider-title">{{$t('main.block_1.slider_1.title')}}</h2>
+                        <p class="slider-text">{{$t('main.block_1.slider_1.desc')}}</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" height="450" src="assets/img/banner/land-trans.jpg" >
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="slider-title">Наземный транспорт</h2>
-                        <p class="slider-text">Доступность к подъездным путям складов и производственных предприятий для загрузки и выгрузки товара; универсальность. Главным направлением нашей работы считаются железнодорожные перевозки из других стран в РК.</p>
+                        <h2 class="slider-title">{{$t('main.block_1.slider_2.title')}}</h2>
+                        <p class="slider-text">{{$t('main.block_1.slider_2.desc')}}</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 " height="450" src="assets/img/banner/banner.png"  >
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="slider-title">Авиаперевозки</h2>
-                        <p class="slider-text">Главный плюс авиаперевозки максимальная оперативность доставки продукции из одного пункта в другой за несколько часов.</p>
+                        <h2 class="slider-title">{{$t('main.block_1.slider_3.title')}}</h2>
+                        <p class="slider-text">{{$t('main.block_1.slider_1.desc')}}</p>
                     </div>
                 </div>
             </div>
@@ -50,8 +50,8 @@
                             <div class="icon">
                                 <img src="assets/img/svg_icon/airplane.png" alt="">
                             </div>
-                            <h3>Транспортная логистика</h3>
-                            <p>Транспортная логистика предполагает организацию перемещения объектов в заданную точку с разработкой оптимального маршрута. Можно выделить следующие основные задачи:</p>
+                            <h3>{{$t('main.block_2.logistic.title')}}</h3>
+                            <p>{{$t('main.block_2.logistic.desc')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
@@ -59,8 +59,8 @@
                             <div class="icon">
                                 <img src="assets/img/svg_icon/live.png" alt="">
                             </div>
-                            <h3>МОНИТОРИНГ</h3>
-                            <p>Осуществляем мониторинг рынка с целью выявления надёжных поставщиков. Имеем наработки и предлагаем поиск поставщика по заданным параметрам.</p>
+                            <h3>{{$t('main.block_2.monitor.title')}}</h3>
+                            <p>{{$t('main.block_2.monitor.desc')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
@@ -68,8 +68,8 @@
                             <div class="icon">
                                 <img src="assets/img/svg_icon/world.png" alt="">
                             </div>
-                            <h3>ГРУЗОПЕРЕВОЗКИ</h3>
-                            <p>Фуры из Алматы ежедневно отправляются по всем международным направлениям. Наиболее популярные маршруты это страны СНГ (Россия, Украина, Беларусь).</p>
+                            <h3>{{$t('main.block_2.transport.title')}}</h3>
+                            <p>{{$t('main.block_2.transport.desc')}}</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     <div class="col-xl-12">
                         <div class="section_title mb-50 text-center">
                             <h3>
-                                Наши услуги
+                                {{$t('main.block_3.title')}}
                             </h3>
                         </div>
                     </div>
@@ -95,8 +95,8 @@
                                     <img src="assets/img/service/7.png" alt="">
                                 </div>
                                 <div class="service_info">
-                                    <h3><a href="/service_details">Железнодорожные транспорт</a></h3>
-                                    <p>Это транспортное средство, на транспортных средствах, которые движутся по рельсам (рельсам или железным дорогам). Это один из наиболее важных, часто используемых и очень экономичных способов передвижения и перевозки грузов как на большие, так и на короткие расстояния</p>
+                                    <h3><a href="/service_details">{{$t('main.block_3.train.title')}}</a></h3>
+                                    <p>{{$t('main.block_3.train.desc')}}</p>
                                 </div>
                             </div>
                             <div class="single_service">
@@ -104,8 +104,8 @@
                                     <img src="assets/img/service/2.png" alt="">
                                 </div>
                                 <div class="service_info">
-                                    <h3><a href="/service_details">Наземный транспорт</a></h3>
-                                    <p>Наземный транспорт - это перевозка или перемещение людей, животных или товаров из одного места в другое место на суше.</p>
+                                    <h3><a href="/service_details">{{$t('main.block_3.earth.title')}}</a></h3>
+                                    <p>{{$t('main.block_3.earth.desc')}}</p>
                                 </div>
                             </div>
                             <div class="single_service">
@@ -113,8 +113,8 @@
                                     <img src="assets/img/service/3.png" alt="">
                                 </div>
                                 <div class="service_info">
-                                    <h3><a href="assets/service_details">Авиаперевозки</a></h3>
-                                    <p>Международные перевозки, Надежные авиаперевозки грузов из Китая по всему миру.</p>
+                                    <h3><a href="assets/service_details">{{$t('main.block_3.avia.title')}}</a></h3>
+                                    <p>{{$t('main.block_3.avia.desc')}}</p>
                                 </div>
                             </div>
                             <div class="single_service">
@@ -122,8 +122,8 @@
                                     <img src="assets/img/service/1.png" alt="">
                                 </div>
                                 <div class="service_info">
-                                    <h3><a href="/service_details">Морские перевозки</a></h3>
-                                    <p>Морские грузовые перевозки - это перевозка грузов морским путем с помощью морских контейнеров.</p>
+                                    <h3><a href="/service_details">{{$t('main.block_3.sea.title')}}</a></h3>
+                                    <p>{{$t('main.block_3.sea.desc')}}</p>
                                 </div>
                             </div>
                         </div>
@@ -138,8 +138,8 @@
                 <div class="row align-items-center">
                     <div class="col-xl-7 col-md-6">
                         <div class="action_heading">
-                            <h3>100% безопасность и надежность</h3>
-                            <p>В Ubios service мы хотим убедиться, что вы чувствуете себя уверенно при заказе у нас. Мы собираем вашу личную информацию для того, чтобы разместить ваш заказ и быстро доставить вам необходимые товары в 100% безопасной среде. Мы не храним информацию о вашей кредитной карте и никогда не будем делиться, продавать или распространять вашу личную информацию, такую как имя, адрес или любую другую информацию, которую вы нам предоставляете. Мы не занимаемся продажей или передачей вашей личной информации.</p>
+                            <h3>{{$t('main.block_4.title')}}</h3>
+                            <p>{{$t('main.block_4.desc')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-6">
@@ -167,19 +167,19 @@
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="features_info">
-                                <h3>Почему клиенты доверяют нам?</h3>
+                                <h3>{{$t('main.block_5.title')}}</h3>
                                 <ul>
-                                    <li> Уровень обслуживания. Мы ориентируемся на европейские стандарты качества; </li>
-                                    <li> Предоставление широкого спектра услуг. </li>
-                                    <li> Обратившись к нам, вы можете воспользоваться экспедированием грузов, заказать железнодорожные, контейнерные перевозки, арендовать подвижной состав. </li>
-                                    <li> Защита интересов клиента. Потребности клиентов являются приоритетом для нашей компании; </li>
-                                    <li> Прозрачное и основанное на доверии сотрудничество. </li>
-                                    <li> Гибкая ценовая политика; </li>
-                                    <li> Индивидуальный подход к каждому клиенту.</li>
+                                    <li> {{$t('main.block_5.desc_1')}} </li>
+                                    <li> {{$t('main.block_5.desc_2')}} </li>
+                                    <li> {{$t('main.block_5.desc_3')}} </li>
+                                    <li> {{$t('main.block_5.desc_4')}} </li>
+                                    <li> {{$t('main.block_5.desc_5')}} </li>
+                                    <li> {{$t('main.block_5.desc_6')}} </li>
+                                    <li> {{$t('main.block_5.desc_7')}} </li>
                                 </ul>
 
                                 <div class="about_btn">
-                                    <a class="boxed-btn3-line" href="/about">О Компании</a>
+                                    <a class="boxed-btn3-line" href="/about">{{$t('nav.about')}}</a>
                                 </div>
                             </div>
                         </div>
@@ -196,26 +196,26 @@
                     <div class="row">
                         <div class="col-xl-3 col-md-3">
                             <div class="single_counter text-center">
-                                <h3> <span class="counter">5</span> <span>+ years</span> </h3>
-                                <p>on the market of Kazakhstan</p>
+                                <h3> <span class="counter">5</span> <span>+</span> </h3>
+                                <p>{{$t('main.block_6.counter1')}}</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-3">
                             <div class="single_counter text-center">
                                 <h3> <span class="counter">51</span> <span>+</span> </h3>
-                                <p>Business Success</p>
+                                <p>{{$t('main.block_6.counter2')}}</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-3">
                             <div class="single_counter text-center">
                                 <h3> <span class="counter">500</span></h3>
-                                <p>Happy Client</p>
+                                <p>{{$t('main.block_6.counter3')}}</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-3">
                             <div class="single_counter text-center">
                                 <h3> <span class="counter">700</span></h3>
-                                <p>Business Done</p>
+                                <p>{{$t('main.block_6.counter4')}}</p>
                             </div>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
         <!-- /feedback  -->
         <feedback-form-component></feedback-form-component>
 
-
+        <floating-button-component></floating-button-component>
         <v-footer></v-footer>
 
     </div>
